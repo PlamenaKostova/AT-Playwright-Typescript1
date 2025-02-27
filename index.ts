@@ -24,30 +24,28 @@ let secondNumber: number = 10;
 let substract: number = firstNumber - secondNumber;
 let add: number = firstNumber + secondNumber;
 let multiply: number = firstNumber * secondNumber;
-let divide: number = firstNumber / secondNumber;
+let divide: number = firstNumber / secondNumber; //ако ни интерсува остатъка вместо / изполваме %
 //console.log("result", result); 
 
 //Boolean (true/false)
  
 let isGreater: boolean = firstNumber > secondNumber; 
-console.log("isGreater", isGreater);
+//console.log("isGreater", isGreater);
 let isLower: boolean = firstNumber < secondNumber; 
-let isEqual: boolean = firstNumber === secondNumber;
+let isEqual: boolean = firstNumber === secondNumber; // за различно се използва !==
 let isGreaterOrEqual: boolean = firstNumber >= secondNumber;
 let isLowerOrEqual: boolean = firstNumber <= secondNumber;
 
 let areNumbersEqualTo: boolean = 5 === firstNumber && 10 === secondNumber;
-console.log("areNumbersEqualTo", areNumbersEqualTo);
-let isAnyNumberEqualTo: boolean= 6 === firstNumber || 10 === secondNumber
-console.log("isAnyNumberEqualTo", isAnyNumberEqualTo);
+//console.log("areNumbersEqualTo", areNumbersEqualTo);
+let isAnyNumberEqualTo: boolean = 6 === firstNumber || 10 === secondNumber
+//console.log("isAnyNumberEqualTo", isAnyNumberEqualTo);
 
 // Any
 let stringValue: any = "Hello";
 stringValue = 10; 
 stringValue = 10 === 10; 
 stringValue = [10, 20, 30];
-console.log("stringValue", stringValue);
-
-
-
+//console.log("stringValue", stringValue);
 //console.log ("Hello, Typescript!");
+
