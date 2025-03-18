@@ -12,7 +12,7 @@ paragraph.textContent = "This is our created paragraph";
 // get element by class name
 const addItemsContent: HTMLCollectionOf<Element> =
   document.getElementsByClassName("add-items");
-console.log("addItemsContent", addItemsContent);
+//console.log("addItemsContent", addItemsContent);
 
 // append element in the html structure
 addItemsContent[0].append(paragraph);
